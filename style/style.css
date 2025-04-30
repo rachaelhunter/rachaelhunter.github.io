@@ -1,0 +1,32 @@
+body {
+    font-family: Optima, sans-serif;
+}
+
+.title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Optima, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: fit; 
+    height: 175px;
+}
+
+.menu-button {
+    font-family: Arial Narrow, sans-serif;
+    color: gray;
+    transition: color 0.5s;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.menu-button:hover {
+    color: lightgray;
+}
