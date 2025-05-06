@@ -2,7 +2,7 @@ function toId(str) {
     return str.toLowerCase().replace(/[^0-9a-z]/g, '');
 }
 
-function buildMenu(image) {
+function buildMenu(image, position) {
     const items = ['HOME', 'REPERTOIRE', 'BIO', 'MEDIA', 'PERFORMANCES', 'CONTACT']
     const buttons = items.map(name => {
         let id = toId(name);
@@ -17,6 +17,9 @@ function buildMenu(image) {
     if (image) {
         menu.style.backgroundImage = `url("images/${image}")`;
         menu.style.color = 'white';
+        if (position) {
+            menu.style.backgroundPosition = `${position[0]}% ${position[1]}%`
+        }
     } else {
         menu.style.height = '50px';
     }
