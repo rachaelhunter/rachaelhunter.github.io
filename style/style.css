@@ -5,6 +5,7 @@
 
 body {
     font-family: Optima, sans-serif;
+    padding-bottom: 120px;
 }
 
 .title {
@@ -42,4 +43,29 @@ body {
 
 .menu-button:hover {
     color: lightgray;
+}
+
+.footer {
+    padding: 15px;
+    background-color: #202020;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 55px;
+    width: 100%
+}
+
+.button-wrapper {
+    border: 1px #999999 solid;
+    padding: 5px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: center;
+    text-align: center;
+}
+
+.button-wrapper img {
+    height: 30px !important;
+    width: 30px !important;
 }
