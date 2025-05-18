@@ -1,3 +1,11 @@
+/**
+ * To add new entries to the performances page, put a new line between the appropriate brackets [ ]
+ * for the respective categories of upcoming and past performances
+ * 
+ * The format is:
+ * "information about performance location dates etc",
+ */
+
 const Upcoming = [
     "Solo recital- 7:00pm, April 23rd. Church of the Ascension, 253 Echo Dr., Ottawa"
 ]
